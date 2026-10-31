@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CLASS 2.0 — Menswear</title>
+<meta name="description" content="CLASS 2.0: curated menswear, designer and streetwear.">
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<div class="ticker" id="ticker"><span>FREE SHIPPING OVER $250</span><span>NEW DROP: FW26 — LIVE NOW</span><span>FREE RETURNS WITHIN 30 DAYS</span></div>
+<header class="hdr">
+  <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  <a href="#/" class="logo">CLASS 2.0</a>
+  <nav class="nav" id="nav">
+    <a href="#/shop?sort=new">New</a>
+    <a href="#/shop?cat=Clothing">Clothing</a>
+    <a href="#/shop?cat=Shoes">Shoes</a>
+    <a href="#/shop?cat=Accessories">Accessories</a>
+    <a href="#/shop?cat=Streetwear">Streetwear</a>
+    <a href="#/designers">Designers</a>
+    <a href="#/shop?sale=1" class="sale">Sale</a>
+  </nav>
+  <div class="tools">
+    <input id="search" type="search" placeholder="Search" aria-label="Search">
+    <a href="#/wishlist" class="icon-btn" aria-label="Wishlist">♡<b id="wishCount"></b></a>
+    <button class="icon-btn" id="cartBtn" aria-label="Bag">BAG<b id="cartCount"></b></button>
+  </div>
+</header>
+<main id="app"></main>
+<footer class="ftr">
+  <div><h4>CLASS 2.0</h4><p>Menswear only. Designer, contemporary and streetwear — curated.</p></div>
+  <div><h4>Help</h4><a href="#/info/shipping">Shipping</a><a href="#/info/returns">Returns</a><a href="#/info/size">Size guide</a></div>
+  <div><h4>Newsletter</h4><form id="news"><input type="email" required placeholder="Email address"><button>Join</button></form></div>
+</footer>
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Shopping bag"></aside>
+<div class="toast" id="toast"></div>
+<script src="src/data.js"></script>
+<script src="src/app.js"></script>
+</body>
+</html>
