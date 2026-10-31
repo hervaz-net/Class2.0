@@ -19,11 +19,14 @@
     <a href="#/shop?cat=Accessories">Accessories</a>
     <a href="#/shop?cat=Streetwear">Streetwear</a>
     <a href="#/designers">Designers</a>
+    <a href="#/fit">Fit Lab</a>
+    <a href="#/drop" class="sale">Drop ●</a>
     <a href="#/shop?sale=1" class="sale">Sale</a>
   </nav>
   <div class="tools">
     <input id="search" type="search" placeholder="Search" aria-label="Search">
     <a href="#/wishlist" class="icon-btn" aria-label="Wishlist">♡<b id="wishCount"></b></a>
+    <button class="icon-btn" id="themeBtn" aria-label="Toggle theme">DARK</button>
     <button class="icon-btn" id="cartBtn" aria-label="Bag">BAG<b id="cartCount"></b></button>
   </div>
 </header>
@@ -35,6 +38,7 @@
 </footer>
 <div class="overlay" id="overlay"></div>
 <aside class="drawer" id="drawer" aria-label="Shopping bag"></aside>
+<div class="modal" id="modal"></div>
 <div class="toast" id="toast"></div>
 <script src="src/data.js"></script>
 <script src="src/app.js"></script>
